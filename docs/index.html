@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Law Firm Operations MVP</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#overview" aria-label="Law Firm Operations MVP home">
+        <span class="brand-mark">LF</span>
+        <span>Law Firm Operations MVP</span>
+      </a>
+      <nav aria-label="Primary">
+        <a href="#features">Features</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#security">Security</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="overview" class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Public showcase blueprint</p>
+          <h1>Practice management software for a small, high-volume neighborhood law firm.</h1>
+          <p class="lede">
+            A focused MVP plan for intake, client search, case tracking, document organization,
+            billing, payments, and secure daily operations.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="../01_Strategy_Planning/LAW_FIRM_SOFTWARE_MVP.md">Read Blueprint</a>
+            <a class="button secondary" href="#roadmap">View Delivery Plan</a>
+          </div>
+        </div>
+
+        <div class="dashboard" aria-label="Practice dashboard preview">
+          <div class="dash-head">
+            <div>
+              <span class="muted">Today</span>
+              <strong>Open Matters</strong>
+            </div>
+            <span class="status">Live MVP</span>
+          </div>
+          <div class="metric-grid">
+            <article>
+              <span>Intakes</span>
+              <strong>18</strong>
+              <small>4 drafts saved</small>
+            </article>
+            <article>
+              <span>Deadlines</span>
+              <strong>7</strong>
+              <small>2 due this week</small>
+            </article>
+            <article>
+              <span>Payments</span>
+              <strong>12</strong>
+              <small>5 installments</small>
+            </article>
+          </div>
+          <div class="case-list">
+            <div class="case-row">
+              <span class="dot amber"></span>
+              <div>
+                <strong>Eviction defense</strong>
+                <small>Answer due May 22</small>
+              </div>
+              <span>Paralegal</span>
+            </div>
+            <div class="case-row">
+              <span class="dot green"></span>
+              <div>
+                <strong>Family matter</strong>
+                <small>Documents uploaded</small>
+              </div>
+              <span>Attorney</span>
+            </div>
+            <div class="case-row">
+              <span class="dot blue"></span>
+              <div>
+                <strong>Criminal defense</strong>
+                <small>Court reminder queued</small>
+              </div>
+              <span>Admin</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Release 1</p>
+          <h2>Core Operating System</h2>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <h3>Client Intake and CRM</h3>
+            <p>Mobile-first forms, autosaved drafts, contact history, family links, and fast search by name, phone, address, or case number.</p>
+          </article>
+          <article>
+            <h3>Case Management</h3>
+            <p>Status dashboards, next actions, assigned staff, deadlines, reminders, case timelines, and practice-area checklists.</p>
+          </article>
+          <article>
+            <h3>Documents</h3>
+            <p>Secure uploads, phone scan support, auto-naming, tags, templates, version history, and matter-level file export.</p>
+          </article>
+          <article>
+            <h3>Billing and Payments</h3>
+            <p>Flat fees, hourly time, invoice PDFs, payment plans, installment tracking, and manual recording for common payment methods.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="roadmap" class="section split">
+        <div class="section-heading">
+          <p class="eyebrow">Delivery</p>
+          <h2>Build the parts that save time first.</h2>
+          <p>
+            The MVP is organized around staff workflows: capture the client, open the case,
+            track the next action, store the document, bill the work, and preserve an audit trail.
+          </p>
+        </div>
+        <ol class="timeline">
+          <li><span>Sprint 0</span>Foundation, roles, providers, statuses, schema, audit baseline.</li>
+          <li><span>Sprint 1</span>Mobile intake, autosave drafts, client profile, search, SMS consent.</li>
+          <li><span>Sprint 2</span>Case dashboard, deadlines, tasks, reminders, timeline, checklists.</li>
+          <li><span>Sprint 3</span>Secure uploads, tags, auto-naming, templates, version history.</li>
+          <li><span>Sprint 4</span>Fee settings, time entries, invoices, payment plans, payment records.</li>
+          <li><span>Sprint 5</span>RBAC, 2FA, audit review, backups, exports, limited pilot.</li>
+        </ol>
+      </section>
+
+      <section id="security" class="section security-band">
+        <div>
+          <p class="eyebrow">Security baseline</p>
+          <h2>Built for confidential legal work.</h2>
+        </div>
+        <div class="security-grid">
+          <span>Role-based access</span>
+          <span>Required staff 2FA</span>
+          <span>Encrypted storage</span>
+          <span>Signed document URLs</span>
+          <span>Audit logs</span>
+          <span>Automated backups</span>
+          <span>Matter export</span>
+          <span>Offline intake drafts</span>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Public showcase for the Law Firm Software MVP Blueprint.</span>
+      <a href="../README.md">Repository README</a>
+    </footer>
+  </body>
+</html>

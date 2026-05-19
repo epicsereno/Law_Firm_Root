@@ -1,0 +1,20 @@
+# Keep the public showcase repo from tracking operational or confidential files.
+02_Financials/
+03_Legal_Compliance/
+04_Marketing_Sales/
+05_Operations/
+06_Personnel_HR/
+07_Assets_Inventory/
+08_Reports_Analytics/
+
+# Local/generated files
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+
+# Local automation/config that may contain private settings.
+daily_market_report.py
+johnny_cochran.md
+market_monitor_config.json
+reports/
